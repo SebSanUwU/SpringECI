@@ -1,10 +1,10 @@
-# Taller 2 - Simple Web Server
+# SpringECI 
 
-Este proyecto consiste en la creación de un servidor web REST sencillo  que puede manejar peticiones HTTP GET, devolviendo respuestas de archivos locales en el servidor y contenido JSON, y permitiendo la gestión de usuarios con funcionalidades como listar usuarios y buscarlos. En esta nueva version del proyecto se le permite al desarrollador crear servicio Lambda. Justamente en los servicios estaticos y de usuarios.
+Este proyecto consiste en la creación de un servidor web REST sencillo  que puede manejar peticiones HTTP GET, devolviendo respuestas de archivos locales en el servidor y contenido JSON, y permitiendo la gestión de usuarios con funcionalidades como listar usuarios y buscarlos. En esta nueva version del proyecto se le permite al desarrollador usar anotaciones @RestController, @GetMapping y @RequestParam. Justamente para uso de controladores.
 
 ## Arquitectura
 
-Desde el inicio de este taller la arquitectura es de MVC. Intentado emular un proyecto de Spring Boot. 
+Desde el inicio de este taller la arquitectura es de MVC. Intentado emular un proyecto de Spring Boot. Ya tenemos para esta version cada capa segmentada.
 
 ## Getting Started
 
@@ -24,11 +24,11 @@ Una serie de pasos para poner en marcha el entorno de desarrollo:
 
 1. **Clonar el repositorio** desde GitHub:
 ```
-git clone https://github.com/SebSanUwU/Taller-2-AREP.git
+git clone https://github.com/SebSanUwU/SpringECI.git
 ```
 2. **Navegar al directorio del proyecto**:
 ```
-cd Taller-2-AREP
+cd SpringECI
 ```
 3. **Construir el proyecto** usando Maven:
 ```
@@ -40,7 +40,7 @@ mvn clean install
 ## Running the tests
 
 Para ejecutar las pruebas automatizadas en el proyecto:
-1. Asegúrate de el proyecto no este en ejecucion.
+1. Asegúrate de que el proyecto no este en ejecucion.
 2. Ejecuta los tests usando el siguiente comando:
 ```
 mvn test
