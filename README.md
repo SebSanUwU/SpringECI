@@ -14,8 +14,8 @@ Estas instrucciones te ayudarán a obtener una copia del proyecto en funcionamie
 
 Necesitarás instalar las siguientes herramientas para ejecutar el proyecto:
 
-- **Java JDK 8 o superior**
-- **Maven**
+- **Java JDK 8 o superior Java 21.0.2**
+- **Maven 3.9.2**
 - **Un IDE** como IntelliJ IDEA, Eclipse o similar
 
 ### Installing
